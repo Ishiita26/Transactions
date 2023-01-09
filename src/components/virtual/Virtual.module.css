@@ -1,0 +1,89 @@
+.Virtual{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.left{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+position: relative;
+width: 50vw;
+}
+.left>:first-child{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    color: rgb(57, 61, 61);
+}
+.left>:nth-child(2){
+    font-size: 1.2rem;
+    /* background-color: rgb(0, 0, 0); */
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+}
+.left>:nth-child(3){
+    font-size: 1.2rem;
+    /* background-color: aqua; */
+     border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+    /* font-weight: bold; */
+}
+.left>img{
+    position: relative;
+    width: 15rem;
+    border-radius: 50%;
+    /* bottom: 3rem; */
+    /* background-color: aqua; */
+     
+     
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    padding: 4rem 3rem 0.8rem 3rem;
+    gap: 2rem;
+    border: solid 4px black;
+    /* background-image:  linear-gradient(rgb(2, 15, 22),black); */
+    border-radius: 4rem;
+    /* backdrop-filter: blur(3rem); */
+
+}
+.label>input{
+    width: 20rem;
+    height: 2rem;
+    padding:0.5rem;
+    background-color:rgb(102, 126, 133);
+    color:black;
+    font-weight: bolder;
+}
+.form>button{
+    width: 8rem;
+   height: 2.5rem;
+   background-color:rgb(0, 0, 0);
+   border-radius: 1rem;
+   /* border: none;
+   display: flex;
+   justify-content: center;
+   text-align: center; */
+   color:white;
+   /* padding-bottom: 2rem; */
+}
+/* .wrapper{
+    width: 25rem;
+} */

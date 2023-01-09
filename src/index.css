@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transition: all 3ms ease;
+    /* background-color: #1f1f38; */
+    /* background-image: url(../src/assets/bg-texture.png); */
+    background-image: conic-gradient(rgb(2, 15, 22),black);
+    scroll-behavior: smooth;
+    backdrop-filter: blur(4rem);
+}
